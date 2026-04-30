@@ -64,9 +64,6 @@ In this section, we will deploy image classification models to SageMaker using t
 
 In this section, we will show how to deploy a model to NVIDIA Triton Inference Server integrated with SageMaker.
 - How to deploy PyTorch BERT model from Hugging Face to a Triton Server.
-- How to improve the performance by exporting the model to NVDIA TensorRT and host it on SageMaker.
-- How to deploy a model ensemble to Triton on SageMaker, composed of:
-  - **DeBERTa-v3** (ONNX) — text encoder producing 768-d embeddings
-  - **XGBoost** (ONNX) — downstream classifier operating on the embeddings
+- How to improve the performance by exporting the model to NVDIA TensorRT and host it on SageMaker.  
 
 
