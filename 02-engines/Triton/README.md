@@ -20,6 +20,7 @@ SageMaker provides a managed Triton Deep Learning Container. The container is pu
 ## List of examples
 
 - [deberta-tensorrt](./deberta-tensorrt): Deploy a DeBERTa NLI model with ONNX Runtime + TensorRT FP16 on a SageMaker Inference Component. Includes a baseline-vs-optimised benchmark showing ~3.5× latency reduction.
+- [deberta-xgboost-ensemble](./deberta-xgboost-ensemble): Deploy a two-stage DeBERTa-v3 encoder + XGBoost classifier ensemble on Triton, chained server-side so the embedding tensor stays on the GPU host between models.
 
 ## Additional resources
 
